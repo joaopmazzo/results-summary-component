@@ -1,0 +1,136 @@
+main {
+  background: var(--neutral-white);
+
+  margin: 0 auto;
+  width: 730px;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#score-container {
+  background: linear-gradient(to bottom, var(--light-slate-blue-background), var(--light-royal-blue-background));
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 40px 60px;
+}
+
+#score-container > .faded-gray-text:first-child {
+  font-size: 22px;
+  font-weight: var(--bold);
+}
+
+#score-container > .white-text {
+  font-size: 28px;
+  font-weight: var(--bold);
+}
+
+#score-rouded {
+  background: linear-gradient(to bottom, var(--violet-blue-circle), var(--persian-blue-circle));
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 45px 60px;
+
+  border-radius: 100%;
+}
+
+#score-rouded > p {
+  font-size: 58px;
+  font-weight: var(--extra-bold);
+
+  margin: 0px;
+}
+
+#summary-container {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+
+  padding: 40px 60px;
+
+  gap: 18px
+}
+
+#summary-container > p {
+  color: var(--neutral-dark-gray-blue);
+  font-size: 22px;
+  font-weight: var(--bold);
+}
+
+#summary-container > div > span {
+  display: flex;
+  items: center;
+  gap: 10px;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 14px 15px;
+  border-radius: 10px;
+
+  font-size: 16px;
+}
+
+.rectangle > span:first-child {
+  display: flex;
+  align-items: center;  
+}
+
+.score-text {
+  color: black;
+}
+
+.score-text-faded {
+  color: var(--neutral-dark-gray-blue);
+}
+
+button {
+  background-color: var(--neutral-dark-gray-blue);
+
+  padding: 15px 0px;
+  width: 100%;
+
+  border-radius: 50px;
+
+  color: var(--neutral-white);
+}
+
+.bg-light-red {
+  background-color: rgb(255, 87, 87, 20%);
+  color: var(--primary-ligth-red);
+}
+
+.bg-orange-yellow {
+  background-color: rgb(255, 176, 31, 20%);
+  color: var(--primary-orange-yellow);
+}
+
+.bg-green-teal {
+  background-color: rgb(0, 189, 145, 20%);
+  color: var(--primary-green-teal);
+}
+
+.bg-cobalt-blue {
+  background-color: rgb(17, 37, 212, 20%);
+  color: var(--prymary-cobalt-blue);
+}
+
+.faded-gray-text {
+  color: var(--neutral-light-lavender)
+}
+
+.white-text {
+  color: var(--neutral-white)
+}
